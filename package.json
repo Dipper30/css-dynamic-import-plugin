@@ -1,0 +1,35 @@
+{
+  "name": "css-dynamic-import-plugin",
+  "version": "1.0.0",
+  "description": "Used for Webpack4 only. Replace prefix of any urls in css file with a new path. Configured for Cdn urls in most cases.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/**",
+    "src/**/**",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dipper30/css-dynamic-import-plugin.git"
+  },
+  "keywords": [
+    "webpack4",
+    "dynamic",
+    "import",
+    "css"
+  ],
+  "author": "Dipper30",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dipper30/css-dynamic-import-plugin/issues"
+  },
+  "homepage": "https://github.com/Dipper30/css-dynamic-import-plugin#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.0"
+  }
+}
